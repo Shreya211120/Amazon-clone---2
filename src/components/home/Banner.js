@@ -12,44 +12,46 @@ function Banner() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel 
+   
+    activeIndex={index} 
+    onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="banner_img"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src="https://rukminim1.flixcart.com/flap/1680/280/image/1defb861e409319b.jpg?q=50"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+    
       </Carousel.Item>
+
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          className="banner_img"
+          src="https://rukminim1.flixcart.com/flap/1680/280/image/685712c6cefb3c02.jpg?q=50"
           alt="Second slide"
         />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          className="banner_img"
+          src="https://rukminim1.flixcart.com/flap/1680/280/image/8d4150cc4f3f967d.jpg?q=50"
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="banner_img"
+          src="https://rukminim1.flixcart.com/flap/1680/280/image/685712c6cefb3c02.jpg?q=50"
+          alt="Fourth slide"
+        />
+
+      </Carousel.Item>
+
+
     </Carousel>
   );
 }
